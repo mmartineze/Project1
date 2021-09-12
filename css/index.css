@@ -100,6 +100,10 @@ body {
   width: auto ;
 }
 
+.footer{
+  background-color: azure;
+}
+
 @media only screen and (max-width:600px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
     body {
         background-color: darksalmon;
