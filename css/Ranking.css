@@ -1,0 +1,63 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.nombre {
+    text-decoration: none;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+  }
+
+  .Pmenu{
+    background-color: whitesmoke;
+    height: 20px;
+    padding: 10px;
+    vertical-align:unset; 
+  
+  }
+  
+
+/* .navegador {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+} */
+.navegador{
+    background-color: black;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    vertical-align: middle;
+ 
+  }
+
+  #ranking {
+    width: 1000px;
+    padding: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    font-family: Verdana
+    
+  
+  }
+
+  @media screen and (max-width:500px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
+    body{
+        background-color: darksalmon;
+    }
+}

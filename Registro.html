@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="CSS/Registro.css">
+</head>
+
+
+<body>
+
+
+  <header>
+    <h1 class="titulo1">
+        <a href="index.html">Diseño de interiores</a> 
+    </h1>
+    <nav class="navegador">
+        <ul>
+        <a href="Estudia.html"> Dónde estudiar</a>
+        <a href="Ranking.html"> Ranking</a>
+        <a href="Registro.html"> Registro</a>
+        <a href="https://www.accredit-id.org/" target=_blank> Acreditaciones</a>
+        </ul>
+    </nav>
+  </header>
+
+
+
+    <!-- <a href="index.html">Regresar al inicio</a> -->
+    <br>
+    <br>
+    <!-- insertar un video (modificando los controles) o audio de soundcloud, un div,article,section, un formulario (que por defecto aparezca mi nombre y color favorito) y una tabla minimo de 5x5 que una alguna colunma y alguna fila -->
+
+  <section>
+    <form action="../../form-result.php" method="post" target="_blank" id="formulario">
+      <br><br>
+      <div><label>Nombre: <br><input class="space" type="text" name="nombrecompleto" placeholder="Escriba su nombre y apellido" value="Manuela Martínez" style="border-radius: 5px" required></label></div>
+      <div><label>Email: <br><input class="space" type="email" placeholder="ejemplo@correo.com" style="border-radius: 5px" required></label></div><br>
+      <div><label>Contraseña: <br><input class="space" type="password" placeholder="Escribe tu contraseña" style="border-radius: 5px" required></label></div><br>
+      <div><label>Repite la contraseña: <br> <input class="space" type="password" placeholder="Escribe nuevamente la contraseña" style="border-radius: 5px" required></label></div><br>
+      
+      <div>
+        <Label>Departamento</Label>
+            <select name="" id="">
+                <option value="1">Antioquia</option>
+                <option value="2">Amazonas</option>
+                <option value="3">Cundinamarca</option>
+                <option value="4">Córdoba</option>
+                <option value="5">Chocó</option>
+            </select><br><br>
+      </div>
+
+      <div>Ciudad:
+        <select name="" id="">
+          <option value="1">Medellín</option>
+          <option value="2">Amazonas</option>
+          <option value="3">Cundinamarca</option>
+          <option value="4">Córdoba</option>
+          <option value="5">Chocó</option>
+        </select><br><br>
+      </div>
+
+      <div><label>Fecha y hora: <input type="datetime-local" value="2017-06-01T08:30"></label></div><br>
+
+      <div>Género: <br>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label><br>
+        <label><input type="radio" name="genero" value="femenino" checked> Femenino</label><br>
+        <label><input type="radio" name="genero" value="Nobinario"> No binario</label><br>
+        <label><input type="radio" name="genero" value="Otro"> Otro</label><br><br>
+      </div>
+    
+      <div>Intereses: <br>
+        <label><input type="checkbox" name="Comercial" checked> Interior comercial</label> <br>
+        <label><input type="checkbox" name="Residencial" checked> Interior residencial</label>   <br> 
+        <label><input type="checkbox" name="Jardines"> Jardines de interior</label><br>
+        <label><input type="checkbox" name="Mobiliario">Diseño de mobiliario</label><br>
+        <label><input type="checkbox" name="luminarias">Diseño de iluminación</label><br><br>
+      </div>
+
+      <div><label><input type="reset"></label> <label><input type="submit"></label></div>
+
+
+    <!-- 
+        <div>
+          <label>Color: <input type="color" name="color" value="#ff0000" id=""></label></div>
+         <label>Hora:  <input type="time" name="color" id=""></label></div><br>
+          <div>
+          <label>Numero: <input type="number" name="color" id=""></label></div><br>
+        </div>
+        <div><label><input type="button" value="botón"></label></div><br>
+        <div><label>Tipo fecha: <input type="date"></label></div><br>      
+        <div><label>Archivo: <input type="file"></label></div><br>
+        <div><label>Mes: <input type="month"></label></div><br>
+        <div><label>Rango: <input type="range" min="-10" step="10" max="10"></label></div><br>
+        <div><label>Búsqueda: <input type="search"></label></div><br>
+        <div><label>Enlace: <input type="url"></label></div><br>
+        <div><label>Semana: <input type="week"></label></div><br>
+        <div><label>Descripciones: <textarea></textarea></label></div><br> -->
+    </form>
+
+  </section>
+    
+</body>
+</html>

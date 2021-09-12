@@ -1,0 +1,107 @@
+/* es la apariencia de la estructura HTML.  Es como la obra blanca, son las reglas gráficas */
+* { /* este * es para poner estilo que quiero que se aplique a todos los elementos  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+html{
+    background-color: rgb(252, 244, 217);
+    ;
+}
+
+body {
+    background-color: rgba(252, 244, 217,1);
+
+}
+
+
+.center {
+  text-align: center;
+}
+
+#NoDecor{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.Pmenu{
+  background-color: whitesmoke;
+  height: 20px;
+  padding: 10px;
+  vertical-align:unset; 
+
+}
+
+
+.navegador{
+    background-color: black;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.banner {
+    background-color: rgb(255, 199, 176);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.titulo2 {
+  color:rgb(90, 45, 12);
+}
+
+
+
+.btnCIDA{
+  color:whitesmoke;
+  
+  background-color: tomato;
+  padding:10px;
+  border-radius:5px;
+  border:dotted blanchedalmond;
+  text-align: center;
+}
+
+.btntext{
+  text-decoration: none;
+
+}
+
+.titulo3{
+  color:rgb(90, 45, 12);
+}
+
+.list{
+  color:rgb(90, 45, 12);
+}
+
+
+
+.inhabilitar {
+  display: none;
+}
+
+
+.habilitar{
+  display: inline;
+}
+
+.carrusel{
+  width: 850px;
+  height: 600px;
+  object-fit:scale-down ;
+  border-radius: 40px;
+
+}
+
+.size{
+  height: 500px;
+  width: auto ;
+}
+
+@media only screen and (max-width:600px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
+    body {
+        background-color: darksalmon;
+    }
+}
