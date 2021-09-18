@@ -28,7 +28,6 @@ html{
 
 
 .nav{
-  max-width: 1024px;
   /* display: flex; */
   background-color: whitesmoke;
   height: 65px;
@@ -36,9 +35,12 @@ html{
   
 }
 
+.location{
+  text-align: center;
+}
 .location ul{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   list-style: none;
   justify-content: center;
   margin: 2px;
