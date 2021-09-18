@@ -8,14 +8,17 @@ html{
     ;
 }
 
-body {
+/* body {
     background-color: rgba(252, 244, 217,1);
 
-}
+} */
 
 
 .center {
   text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 #NoDecor{
@@ -24,21 +27,33 @@ body {
 }
 
 
-.Pmenu{
+.nav{
+  max-width: 1024px;
+  display: flex;
   background-color: whitesmoke;
-  height: 20px;
-  padding: 10px;
-  vertical-align:unset; 
-
+  height: 50px;
+  box-sizing: border-box;
 }
 
+.location ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  margin: 2px;
+}
 
-.navegador{
+.location ul li{
+  margin: 2px;
+}
+
+.Pmenu{
     background-color: black;
     color: cornsilk;
     text-decoration: none;
     padding: 10px;
 }
+
 
 .banner {
     background-color: rgb(255, 199, 176);
@@ -104,8 +119,49 @@ body {
   background-color: azure;
 }
 
-@media only screen and (max-width:600px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
+@media only screen and (max-width:800px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
     body {
         background-color: darksalmon;
     }
+
+    .location ul{
+      flex-direction: column;
+      /* position: fixed; */
+      display: flex;
+      align-items: center;
+      list-style: none;
+      justify-content: center;
+    }
+    .location ul li{
+      flex-direction: column;
+      display: flex;
+      list-style: none;
+      margin: 10px;
+      width: 120%;
+      height: 20px;
+    }
+
+    iframe{
+      width: 95%;
+    
+    }
+    
+    .nav{
+      height: 200px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+    }
+
+    .img1, .img2{
+      width: 95%;
+    }
+
+    .size{
+      width: 90%;
+      height: auto;
+      object-fit:unset; 
+    }
+
+
 }
