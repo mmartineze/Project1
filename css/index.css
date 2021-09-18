@@ -16,9 +16,9 @@ html{
 
 .center {
   text-align: center;
-  align-items: center;
+  /* align-items: center;
   align-self: center;
-  align-content: center;
+  align-content: center; */
 }
 
 #NoDecor{
@@ -29,17 +29,18 @@ html{
 
 .nav{
   max-width: 1024px;
-  display: flex;
+  /* display: flex; */
   background-color: whitesmoke;
-  height: 50px;
-  box-sizing: border-box;
+  height: 65px;
+  /* box-sizing: border-box; */
+  
 }
 
 .location ul{
   display: flex;
   align-items: center;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   margin: 2px;
 }
 
@@ -147,7 +148,7 @@ html{
     }
     
     .nav{
-      height: 200px;
+      height: 230px;
       display: flex;
       justify-content:center;
       align-items: center;
