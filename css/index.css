@@ -1,11 +1,14 @@
 /* es la apariencia de la estructura HTML.  Es como la obra blanca, son las reglas gráficas */
 * { /* este * es para poner estilo que quiero que se aplique a todos los elementos  */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
     
 }
-html{
+
+
+body{
     background-color: rgb(252, 244, 217);
-    ;
+    
 }
 
 /* body {
@@ -16,6 +19,7 @@ html{
 
 .center {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   /* align-items: center;
   align-self: center;
   align-content: center; */
@@ -38,6 +42,7 @@ html{
 .location{
   text-align: center;
 }
+
 .location ul{
   display: flex;
   /* align-items: center; */
@@ -58,15 +63,18 @@ html{
 }
 
 
-.banner {
+#banner {
     background-color: rgb(255, 199, 176);
     padding-top: 5px;
     padding-bottom: 20px;
     display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(90, 45, 12);
 }
 
-.titulo2 {
-  color:rgb(90, 45, 12);
+#banner ul{
+  list-style: none;
 }
 
 
@@ -86,14 +94,6 @@ html{
 
 }
 
-.titulo3{
-  color:rgb(90, 45, 12);
-}
-
-.list{
-  color:rgb(90, 45, 12);
-}
-
 
 
 .inhabilitar {
@@ -104,6 +104,42 @@ html{
 .habilitar{
   display: inline;
 }
+
+
+
+#aspectobtn{
+  text-align: right;
+}
+
+
+
+
+.dark{
+  background-color: cornflowerblue !important;
+  color: aliceblue !important;
+  text-align: left !important;  
+}
+
+.dark ul{
+  display: block;
+  list-style: none;
+}
+
+
+
+.newheader{
+  background-color: teal;
+}
+
+
+
+
+
+
+
+
+
+
 
 .carrusel{
   width: 850px;

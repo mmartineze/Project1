@@ -1,14 +1,15 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-color: blanchedalmond;
 }
 
-.nombre {
+.titulo1 {
     text-decoration: none;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navegador {
@@ -36,6 +37,29 @@ body{
 
 }
 
+#contact .form-container{
+    /* background-color: floralwhite; */
+    margin-left: 60px;
+
+}
+
+#contact .form-container .form-group{
+    margin-top: 20px;
+}
+
+#contact .form-container .form-group label{
+    display: block;
+    font-size: 18px;
+}
+
+#contact .form-container .form-group input{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#contact .form-container .form-group .pristine-error{
+    color: brown;
+}
 
 @media screen and (max-width:500px) { /* aqui tambien puede se 100%, o 80% o lo que uo quiera en vez de pixeles */
     body{

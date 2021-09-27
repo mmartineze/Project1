@@ -1,6 +1,33 @@
 alert ("Bienvenidos")
 
 
+window.onload= iniciar;
+function iniciar() {
+  var aspectobtn = document.getElementById("aspectobtn")
+  var ban=document.getElementById("banner");
+ 
+ /*  var ban=document.getElementById("list"); */
+
+  aspectobtn.addEventListener("click",function() {
+    ban.classList.toggle("dark");
+    ban.classList.toggle("dark ul");
+    
+
+  });
+}
+
+/* window.onload=iniciar;
+function iniciar(){
+  var aspectobtn = document.getElementById("aspectobtn")
+  var ban=document.getElementById("header")
+
+  aspectobtn.addEventListener("click",function() {
+    ban.classList.toggle("newheader");
+
+  });
+
+} */
+  
 
 
 
@@ -28,6 +55,7 @@ btnpause.addEventListener("click", function() {
   btnplay.className="habilitar";
   btnpause.className="inhabilitar"
 })
+
 
 
 
